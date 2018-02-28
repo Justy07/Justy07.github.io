@@ -1,1 +1,80 @@
-<h1>jygvjgghb</h1>
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url(https://vignette.wikia.nocookie.net/spongebob/images/f/fb/Pineapple.png/revision/latest/scale-to-width-down/320?cb=20150829222659);
+      background-size: cover;
+      color: yellow;
+    }
+    a {
+      color: yellow;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      width: 400px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src='https://artinsights.com/wp-content/uploads/2017/12/SpongeBob.jpg'==>
+    <h1> Bob's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best songs </a></li>
+      <li><a href="#">Worst songs</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Best Friends</h2> 
+    <p>My main friend and bff is patrick star. we do everything together. He is a inventor and a worker at my boss's worst enemy fast food place the Cum Bucket. My second best frined is squidward, he is one of my co-workers and always in a bad mood.  </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Work</h2>
+    <p>I work at the Krusty Krab with my boss mr.krabs and my co-worker squidward. I flip patties, and make what is called a kraby patty. I love the krusy krab its what I look forward to when I wake up every morning. Come down so I can make you the best buger in the world.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Favorite things </h2>
+    <p>I like to go jelly fishing in jelly fish feilds. Fliping patties at the best job in the world. Playing with my pet snail gary. Hanging with my two best friends. I love going to my grandmother's and walking in smelling homemade cookies in the air. </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+
